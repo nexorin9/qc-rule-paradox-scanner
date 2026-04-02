@@ -1,0 +1,50 @@
+# Environment
+.env
+.venv/
+venv/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Logs & Temp
+logs/
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Data & Output
+data/*.json
+data/*.csv
+data/*.xlsx
+output/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Score (round metadata, not project)
+score.json
